@@ -11,8 +11,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: 'First'
+          name: First
           command: node -v
       - run:
-          name: 'Second'
+          name: Second
           command: npm -v

@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: First
-          command: echo "Hello!"
+          command: node -v
       - run:
           name: Second
-          command: echo "Hello!"
+          command: npm -v

@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           name: First
-          command: node -v
+          command: npm install
       - run:
           name: Second
           command: npm -v
